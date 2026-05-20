@@ -88,8 +88,8 @@ namespace Offsets
                 using (WebClient client = new WebClient())
                 {
                     string fullVersion = "version-" + Storage.RobloxVersion;
-                    string url = $"https://axiomsoftworks.com/Offsets/{fullVersion}/Offsets.cs";
-                    string fallbackUrl = "https://axiomsoftworks.com/Offsets/Offsets.cs";
+                    string url = $"https://imtheo.lol/Offsets/{fullVersion}/Offsets.cs";
+                    string fallbackUrl = "https://imtheo.lol/Offsets/Offsets.cs";
 
                     string data = "";
                     try
