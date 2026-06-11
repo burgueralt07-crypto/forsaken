@@ -50,13 +50,13 @@ namespace FoulzExternal.storage
                 }
                 catch { RobloxVersion = ""; }
 
-                if (!Offsets.Sync.Fetch())
-                {
-                    LogsWindow.Log("[storage] CRITICAL: Offset fetch failed. Cannot continue.");
-                    return;
-                }
+               // if (!Offsets.Sync.Fetch())
+                //{
+                    //LogsWindow.Log("[storage] CRITICAL: Offset fetch failed. Cannot continue.");
+                    //return;
+                //}
 
-                if (!FFlagOffsets.Sync.Fetch())
+               // if (!FFlagOffsets.Sync.Fetch())
                 {
                     LogsWindow.Log("[storage] Warning: FFlag fetch failed.");
                 }
